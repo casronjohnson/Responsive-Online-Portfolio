@@ -149,3 +149,8 @@ hr{
   margin-right:20px;
   margin-left:20px;
 }
+
+.project-link{
+  color:#ef744b;
+  text-decoration: none;
+}
