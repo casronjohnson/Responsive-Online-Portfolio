@@ -9,19 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
   </head>
   <body>
     <section class="hero">
       <nav>
-        <img class="logo" src="src/images/logo.png" alt="logo">
+        <a href="#"><img class="logo" src="src/images/brand.webp" alt="logo"></a> 
         <ul>
           <li><a href="#about-me">About me</a> </li>
           <li><a href="#projects">Projects</a> </li>
           <li><a href="#contact-me">Contact</a> </li>
         </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
@@ -41,7 +44,9 @@
     <section class="sub-section" id="about-me">
       <div class="information">
         <h2>About Me</h2>
-        <p>Hello, My name is Casron Johnson. I am a Software Developer with a passion for learning.</p>
+        <p>Hi there,<br>
+          My name is Casron Johnson. I'm a full stack web developer with a passion for creating robust, intuitive and dynamic web applications that provide an engaging user experience.
+          </p>
       </div>
       <div class="headshot-container">
         <img src="src/images/headshot.jpg" alt="Casron Johnson headshot" class="headshot">

@@ -1,5 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 section{
   background-color:white;
@@ -122,6 +128,7 @@ a{
 .headshot{
   width:300px;
   border-radius: 150px;
+  margin-left: 30px;
 }
 
 .shotshot-container{
@@ -164,4 +171,22 @@ hr{
 .project-link{
   color:#ef744b;
   text-decoration: none;
+}
+
+.hamburger{
+  display:none;
+}
+
+@media only screen and (max-width: 1000px ){
+  .hamburger{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+  }
+
+    ul{
+      display:none;
+    }
 }
